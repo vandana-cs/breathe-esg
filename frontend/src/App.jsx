@@ -6,7 +6,7 @@ export default function App() {
   const [records, setRecords] = useState([]);
 
   const load = async () => {
-    const res = await axios.get("http://127.0.0.1:8000/api/records/");
+    const res = await axios.get("https://breathe-esg-lvrb.onrender.com/api/records/");
     setRecords(res.data);
   };
 
@@ -18,18 +18,18 @@ export default function App() {
     const formData = new FormData();
     formData.append("file", e.target.files[0]);
 
-    await axios.post(`http://127.0.0.1:8000/api/upload/${type}/`, formData);
+    await axios.post(`https://breathe-esg-lvrb.onrender.com/api/upload/${type}/`, formData);
 
     load();
   };
 
   const travel = async () => {
-    await axios.post("http://127.0.0.1:8000/api/travel/sync/");
+    await axios.post("https://breathe-esg-lvrb.onrender.com/api/travel/sync/");
     load();
   };
 
   const approve = async (id) => {
-    await axios.post(`http://127.0.0.1:8000/api/approve/${id}/`);
+    await axios.post(`render started/api/approve/${id}/`);
     load();
   };
 
