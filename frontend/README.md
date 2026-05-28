@@ -1,4 +1,4 @@
-Here is your final README content ready to paste into `README.md`.
+
 
 # Breathe ESG Tech Intern Assignment
 
