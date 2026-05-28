@@ -48,6 +48,8 @@ Backend API:
 Admin Panel:
 (https://breathe-esg-lvrb.onrender.com/admin/)
 
+Deployed App URL:
+https://breathe-esg-ebon-theta.vercel.app/
 ---
 
 # API Endpoints
