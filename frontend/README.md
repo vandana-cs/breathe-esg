@@ -40,13 +40,13 @@ Full-stack ESG emissions ingestion and analyst review system built using Django 
 # Live Links
 
 Frontend:
-[https://breathe-esg-ebon-theta.vercel.app/](https://breathe-esg-ebon-theta.vercel.app/)
+(https://breathe-esg-ebon-theta.vercel.app/)
 
 Backend API:
-[https://breathe-esg-lvrb.onrender.com/api/records/](https://breathe-esg-lvrb.onrender.com/api/records/)
+(https://breathe-esg-lvrb.onrender.com/api/records/)
 
 Admin Panel:
-[https://breathe-esg-lvrb.onrender.com/admin/](https://breathe-esg-lvrb.onrender.com/admin/)
+(https://breathe-esg-lvrb.onrender.com/admin/)
 
 ---
 
